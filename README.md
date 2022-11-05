@@ -8,6 +8,10 @@ pip install celery
 pip install redis
 
 django-admin startproject config . //Start project
+
 python manage.py runserver
+
 python manage.py startapp cly //app
+
 python manage.py migrate
+
