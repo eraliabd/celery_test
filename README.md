@@ -15,3 +15,8 @@ python manage.py startapp cly //app
 
 python manage.py migrate
 
+![image](https://user-images.githubusercontent.com/91982815/200135847-97d1b45a-0dce-456d-b8c3-2e36ef551493.png)
+
+
+celery -A config.celery worker --loglevel=info
+
